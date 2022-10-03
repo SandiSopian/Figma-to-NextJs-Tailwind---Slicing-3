@@ -1,6 +1,6 @@
 import { CgProfile } from "react-icons/cg";
 import { BsTelephone, BsTwitter, BsInstagram, BsYoutube } from "react-icons/bs";
-import { RiArrowDropDownLine } from "react-icons/ri";
+import Location from "../components/Location";
 
 export default function NavItem() {
   return (
@@ -28,44 +28,7 @@ export default function NavItem() {
       </div>
 
       {/* Locations */}
-      <div className="my-4 border-b border-gray-100 pb-4">
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <h3 className="text-base text-gray-800 group-hover:text-white font-semibold">Bandung</h3>
-          <RiArrowDropDownLine className="text-2xl text-gray-600 group-hover:text-white" />
-        </div>
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <h3 className="text-base text-gray-800 group-hover:text-white font-semibold">Sumedang</h3>
-          <RiArrowDropDownLine className="text-2xl text-gray-600 group-hover:text-white" />
-        </div>
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <h3 className="text-base text-gray-800 group-hover:text-white font-semibold">Cirebon</h3>
-          <RiArrowDropDownLine className="text-2xl text-gray-600 group-hover:text-white" />
-        </div>
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <h3 className="text-base text-gray-800 group-hover:text-white font-semibold">Pangandaran</h3>
-          <RiArrowDropDownLine className="text-2xl text-gray-600 group-hover:text-white" />
-        </div>
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <h3 className="text-base text-gray-800 group-hover:text-white font-semibold">Bogor</h3>
-          <RiArrowDropDownLine className="text-2xl text-gray-600 group-hover:text-white" />
-        </div>
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <h3 className="text-base text-gray-800 group-hover:text-white font-semibold">Sukabumi</h3>
-          <RiArrowDropDownLine className="text-2xl text-gray-600 group-hover:text-white" />
-        </div>
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <h3 className="text-base text-gray-800 group-hover:text-white font-semibold">Purwakarta</h3>
-          <RiArrowDropDownLine className="text-2xl text-gray-600 group-hover:text-white" />
-        </div>
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <h3 className="text-base text-gray-800 group-hover:text-white font-semibold">Garut</h3>
-          <RiArrowDropDownLine className="text-2xl text-gray-600 group-hover:text-white" />
-        </div>
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <h3 className="text-base text-gray-800 group-hover:text-white font-semibold">Ciwidey</h3>
-          <RiArrowDropDownLine className="text-2xl text-gray-600 group-hover:text-white" />
-        </div>
-      </div>
+      <Location />
 
       {/* Social Media */}
       <div className=" mb-12">
