@@ -24,7 +24,6 @@ function SideNavbar() {
         </div>
 
         {/* Mobile SideNavbar */}
-
         <div className={classnames("fixed flex justify-center backdrop-blur z-30 top-0 h-full w-full pt-0 sm:pt-12 transition-all md:hidden duration-200 delay-150", offcanvas ? "left-0" : "-left-full")}>
           <div className="overflow-y-scroll bg-black opacity-80">
             <Nav />
