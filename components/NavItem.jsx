@@ -1,8 +1,11 @@
 import { CgProfile } from "react-icons/cg";
 import { BsTelephone, BsTwitter, BsInstagram, BsYoutube } from "react-icons/bs";
 import Location from "../components/Location";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function NavItem() {
+  const router = useRouter();
   return (
     <div className="flex flex-col justify-start items-center">
       {/* Brand Title */}
@@ -17,14 +20,27 @@ export default function NavItem() {
       </div>
 
       <div className="my-4 border-b border-black pb-4">
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <CgProfile className="text-2xl text-gray-600 group-hover:text-white" />
-          <h3 className="text-base text-gray-800 group-hover:text-white font-bold">About</h3>
-        </div>
-        <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-          <BsTelephone className="text-2xl text-gray-600 group-hover:text-white" />
-          <h3 className="text-base text-gray-800 group-hover:text-white font-bold">Contact</h3>
-        </div>
+        <Link href="/about">
+          <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <a className={router.pathname == "/about" ? "active" : ""}>
+              <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+                <CgProfile className="text-2xl text-gray-600 group-hover:text-white" />
+                <h3 className="text-base text-gray-800 group-hover:text-white font-bold">About</h3>
+              </div>
+            </a>
+          </div>
+        </Link>
+
+        <Link href="/contact">
+          <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <a className={router.pathname == "/contact" ? "active" : ""}>
+              <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+                <BsTelephone className="text-2xl text-gray-600 group-hover:text-white" />
+                <h3 className="text-base text-gray-800 group-hover:text-white font-bold">Contact</h3>
+              </div>
+            </a>
+          </div>
+        </Link>
       </div>
 
       {/* Locations */}

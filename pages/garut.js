@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { Gallery } from "../components/Gallery";
-import SideNavbar from "../components/SideNavbar";
+import { Gallery2 } from "../components/Gallery";
+
 import Layout from "../components/Layout";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <Gallery />
+        <Gallery2 />
       </Layout>
     </>
   );

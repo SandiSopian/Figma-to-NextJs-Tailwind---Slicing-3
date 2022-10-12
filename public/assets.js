@@ -1,26 +1,39 @@
-// Bandung
 const description = [{ curughejo: "lorem ipsum dolor" }];
 const locations = [
   {
     id: "1",
     name: "curug-dago",
     location: "bandung",
-    source: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    source: require("../public/img/Bandung/Curug Dago/curug-dago1.jpg").default.src,
     tag: "curug-dago",
   },
   {
     id: "2",
     name: "curug-dago",
     location: "bandung",
-    source: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    source: require("../public/img/Bandung/Curug Dago/curug-dago2.jpg").default.src,
     tag: "curug-dago",
   },
   {
     id: "3",
     name: "gedung-sate",
     location: "bandung",
-    source: "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    source: require("../public/img/Bandung/Gedung Sate/gedung-sate1.jpg").default.src,
     tag: "gedung-sate",
+  },
+  {
+    id: "4",
+    name: "jalan-braga",
+    location: "bandung",
+    source: require("../public/img/Bandung/Jalan Braga/jalan-braga1.jpg").default.src,
+    tag: "jalan-braga",
+  },
+  {
+    id: "5",
+    name: "tangkuban-perahu",
+    location: "bandung",
+    source: require("../public/img/Bandung/Kawah Gunung Tangkuban Perahu/tangkuban-perahu1.jpg").default.src,
+    tag: "tangkuban-perahu",
   },
 ];
 
