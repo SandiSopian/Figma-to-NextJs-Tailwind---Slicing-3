@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Gallery2 } from "../components/Gallery";
+import { GalleryBdg } from "../components/Gallery";
 
 import Layout from "../components/Layout";
 
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <Gallery2 />
+        <GalleryBdg />
       </Layout>
     </>
   );
