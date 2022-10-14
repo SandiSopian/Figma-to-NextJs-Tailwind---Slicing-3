@@ -2,6 +2,7 @@ import uniqid from "uniqid";
 import React, { useEffect, useState } from "react";
 import { bandung, bogor } from "../public/utils";
 import GalleryContainer from "./GalleryContainer";
+import Image from "next/image";
 
 // // TagButton Filter
 const TagButton = ({ name, handleSetTag, activeTag }) => {
@@ -37,7 +38,7 @@ export function GalleryBdg() {
         <GalleryContainer>
           {filteredImages.map((bandung) => (
             <div key={uniqid} className="flex rounded-lg bg-cover bg-center overflow-hidden transition-all duration-5000 shadow-2xl">
-              <img src={bandung.source} alt={bandung.name} placeholder={bandung.name} className="hover:cursor-pointer hover:scale-110 transition-all duration-9000 shadow-sm" />
+              <Image src={bandung.source} alt={bandung.name} placeholder={bandung.name} className="hover:cursor-pointer hover:scale-110 transition-all duration-9000 shadow-sm" />
             </div>
           ))}
         </GalleryContainer>
@@ -71,7 +72,7 @@ export function GalleryBgr() {
         <GalleryContainer>
           {filteredImages.map((bogor) => (
             <div key={uniqid} className="flex rounded-lg bg-cover bg-center overflow-hidden transition-all duration-5000">
-              <img src={bogor.source} alt={bogor.name} placeholder={bogor.name} className="hover:cursor-pointer hover:scale-110 transition-all duration-9000 shadow-sm" />
+              <Image src={bogor.source} alt={bogor.name} placeholder={bogor.name} className="hover:cursor-pointer hover:scale-110 transition-all duration-9000 shadow-sm" />
             </div>
           ))}
         </GalleryContainer>
