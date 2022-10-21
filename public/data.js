@@ -1,3 +1,11 @@
+// About Profile Image
+export const profileImg = [
+  {
+    name: "Sandi Sopian",
+    img: require("../public/img/Profile Img/profileImg.jpg").default.src,
+  },
+];
+
 // Data Gallery Bandung
 export const bandung = [
   {

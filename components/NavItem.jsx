@@ -52,9 +52,15 @@ export default function NavItem() {
       <div className=" mb-12">
         <div className="text-base text-slate-400 mb-2">Follow Us</div>
         <div className="flex gap-4">
-          <BsTwitter />
-          <BsInstagram />
-          <BsYoutube />
+          <a href="https://www.twitter.com" alt="twitter">
+            <BsTwitter />
+          </a>
+          <a href="https://www.instagram.com" alt="Instagram">
+            <BsInstagram />
+          </a>
+          <a href="https://www.youtube.com" alt="Youtube">
+            <BsYoutube />
+          </a>
         </div>
       </div>
     </div>
