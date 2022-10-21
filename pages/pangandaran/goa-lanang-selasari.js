@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Homepage from "../components/Homepage";
-import Layout from "../components/Layout";
-import { ScrollToTop } from "../components/ScrollToTop";
+import { GoaLS } from "../../components/LocPangandaran";
+
+import Layout from "../../components/Layout";
 
 export default function Home() {
   return (
@@ -12,9 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <ScrollToTop />
       <Layout>
-        <Homepage />
+        <GoaLS />
       </Layout>
     </>
   );

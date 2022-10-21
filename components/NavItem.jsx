@@ -9,7 +9,9 @@ export default function NavItem() {
   return (
     <div className="flex flex-col justify-start items-center">
       {/* Brand Title */}
-      <h1 className="text-6xl text-center cursor-pointer font-semibold border-b pb-4 w-full ">Tara Trip</h1>
+      <Link href="/">
+        <h1 className="text-6xl text-center cursor-pointer font-semibold border-b pb-4 w-full ">Tara Trip</h1>
+      </Link>
 
       {/* Nav Sub Menu */}
 
@@ -22,23 +24,23 @@ export default function NavItem() {
       <div className="my-4 border-b border-black pb-4">
         <Link href="/about">
           <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-            <a className={router.pathname == "/about" ? "active" : ""}>
+            <div className={router.pathname == "/about" ? "active" : ""}>
               <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                 <CgProfile className="text-2xl text-gray-600 group-hover:text-white" />
                 <h3 className="text-base text-gray-800 group-hover:text-white font-bold">About</h3>
               </div>
-            </a>
+            </div>
           </div>
         </Link>
 
         <Link href="/contact">
           <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
-            <a className={router.pathname == "/contact" ? "active" : ""}>
+            <div className={router.pathname == "/contact" ? "active" : ""}>
               <div className="flex mb-2 justify-start items-center gap-4 px-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                 <BsTelephone className="text-2xl text-gray-600 group-hover:text-white" />
                 <h3 className="text-base text-gray-800 group-hover:text-white font-bold">Contact</h3>
               </div>
-            </a>
+            </div>
           </div>
         </Link>
       </div>
