@@ -291,7 +291,7 @@ function Location() {
                 <Menu.Item>
                   <Link href="/ciwidey/d-riam-riverside">
                     <div href="/ciwidey/d-riam-riverside" className={router.pathname == "/ciwidey/d-riam-riverside" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 D'Riam Riverside</div>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 D Riam Riverside</div>
                     </div>
                   </Link>
                 </Menu.Item>
