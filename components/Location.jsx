@@ -95,9 +95,9 @@ function Location() {
             <Menu.Items className="absolute z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
               <div className="py-1 ">
                 <Menu.Item>
-                  <Link href="/bogor/istana-presiden-cipanas">
+                  <Link href="/bogor/curug-leuwi-hejo">
                     <div href="/bogor/curug-leuwi-hejo" className={router.pathname == "/bogor/curug-leuwi-hejo" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white">📌 Curug Leuwi Hejo</div>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Curug Leuwi Hejo</div>
                     </div>
                   </Link>
                 </Menu.Item>
@@ -157,7 +157,7 @@ function Location() {
                 <Menu.Item>
                   <Link href="/cianjur/istana-presiden-cipanas">
                     <div href="/cianjur/istana-presiden-cipanas" className={router.pathname == "/cianjur/istana-presiden-cipanas" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white">📌 Istana Presiden Cipanas</div>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Istana Presiden Cipanas</div>
                     </div>
                   </Link>
                 </Menu.Item>
@@ -217,7 +217,7 @@ function Location() {
                 <Menu.Item>
                   <Link href="/cirebon/hutan-kera-plangon">
                     <div href="/cirebon/hutan-kera-plangon" className={router.pathname == "/cirebon/hutan-kera-plangon" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white">📌 Hutan Kera Plangon</div>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Hutan Kera Plangon</div>
                     </div>
                   </Link>
                 </Menu.Item>
@@ -277,7 +277,7 @@ function Location() {
                 <Menu.Item>
                   <Link href="/ciwidey/bukit-jamur">
                     <div href="/ciwidey/bukit-jamur" className={router.pathname == "/ciwidey/bukit-jamur" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white">📌 Bukit Jamur</div>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Bukit Jamur</div>
                     </div>
                   </Link>
                 </Menu.Item>
@@ -386,7 +386,7 @@ function Location() {
                 <Menu.Item>
                   <Link href="/garut/curug-batu-nyusun">
                     <div href="/garut/curug-batu-nyusun" className={router.pathname == "/garut/curug-batu-nyusun" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white">📌 Curug Batu Nyusun</div>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Curug Batu Nyusun</div>
                     </div>
                   </Link>
                 </Menu.Item>
@@ -446,7 +446,7 @@ function Location() {
                 <Menu.Item>
                   <Link href="/pangandaran/cagar-alam-pangandaran">
                     <div href="/pangandaran/cagar-alam-pangandaran" className={router.pathname == "/pangandaran/cagar-alam-pangandaran" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white">📌 Cagar Alam Pangandaran</div>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Cagar Alam Pangandaran</div>
                     </div>
                   </Link>
                 </Menu.Item>
@@ -506,7 +506,7 @@ function Location() {
                 <Menu.Item>
                   <Link href="/purwakarta/curug-cipurut">
                     <div href="/purwakarta/curug-cipurut" className={router.pathname == "/purwakarta/curug-cipurut" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white">📌 Curug Cipurut</div>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Curug Cipurut</div>
                     </div>
                   </Link>
                 </Menu.Item>
@@ -566,7 +566,7 @@ function Location() {
                 <Menu.Item>
                   <Link href="/sukabumi/curug-cimarinjung">
                     <div href="/sukabumi/curug-cimarinjung" className={router.pathname == "/sukabumi/curug-cimarinjung" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white">📌 Curug Cimarinjung</div>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Curug Cimarinjung</div>
                     </div>
                   </Link>
                 </Menu.Item>

@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import "tailwindcss/tailwind.css";
 import { useEffect, useState } from "react";
 import "lightgallery.js/dist/css/lightgallery.css";
 import { LightgalleryProvider } from "react-lightgallery";
