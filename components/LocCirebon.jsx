@@ -460,8 +460,8 @@ export function SetuP() {
   );
 }
 
-// Taman Wisata Goa Sunyaragi
-export function TamanWGS() {
+// Wisata Goa Sunyaragi
+export function WisataGS() {
   return (
     <section>
       {cirebon.map((location) => {
@@ -475,11 +475,11 @@ export function TamanWGS() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img1}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img1}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img1}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img1}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -488,11 +488,11 @@ export function TamanWGS() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img2}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img2}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img2}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img2}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -501,11 +501,11 @@ export function TamanWGS() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img3}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img3}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img3}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img3}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -514,11 +514,11 @@ export function TamanWGS() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img4}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img4}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img4}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img4}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -527,11 +527,11 @@ export function TamanWGS() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img5}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img5}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img5}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img5}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -540,11 +540,11 @@ export function TamanWGS() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img6}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img6}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img6}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img6}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -553,11 +553,11 @@ export function TamanWGS() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img7}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img7}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img7}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img7}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -566,11 +566,11 @@ export function TamanWGS() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img8}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img8}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img8}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img8}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -579,11 +579,11 @@ export function TamanWGS() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img9}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img9}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img9}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img9}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -592,11 +592,11 @@ export function TamanWGS() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanWGS.img10}>
+                <LightgalleryItem key="uniqid" src={location.wisataGS.img10}>
                   <Image
                     key={uniqid}
-                    src={location.tamanWGS.img10}
-                    alt={location.tamanWGS.name}
+                    src={location.wisataGS.img10}
+                    alt={location.wisataGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"

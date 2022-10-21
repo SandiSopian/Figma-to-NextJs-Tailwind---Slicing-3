@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { TamanWGS } from "../../components/LocCirebon";
+import { WisataGS } from "../../components/LocCirebon";
 
 import Layout from "../../components/Layout";
 
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <TamanWGS />
+        <WisataGS />
       </Layout>
     </>
   );

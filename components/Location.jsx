@@ -236,9 +236,9 @@ function Location() {
                   </Link>
                 </Menu.Item>
                 <Menu.Item>
-                  <Link href="/cirebon/taman-wisata-goa-sunyaragi">
-                    <div href="/cirebon/taman-wisata-goa-sunyaragi" className={router.pathname == "/cirebon/taman-wisata-goa-sunyaragi" ? "active" : ""} onClick={() => router.reload()}>
-                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Taman Wisata Goa Sunyaragi</div>
+                  <Link href="/cirebon/wisata-goa-sunyaragi">
+                    <div href="/cirebon/wisata-goa-sunyaragi" className={router.pathname == "/cirebon/wisata-goa-sunyaragi" ? "active" : ""} onClick={() => router.reload()}>
+                      <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Wisata Goa Sunyaragi</div>
                     </div>
                   </Link>
                 </Menu.Item>
