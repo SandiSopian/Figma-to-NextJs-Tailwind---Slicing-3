@@ -763,5 +763,3 @@ export function TamanRyDj() {
     </section>
   );
 }
-
-console.log(uniqid());
