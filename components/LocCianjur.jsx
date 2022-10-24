@@ -3,6 +3,7 @@ import React from "react";
 import { cianjur } from "../public/data";
 import { LightgalleryItem } from "react-lightgallery";
 import Image from "next/image";
+import Link from "next/link";
 
 // Istana Presiden Cipanas
 export function IstanaPC() {
@@ -10,12 +11,23 @@ export function IstanaPC() {
     <section>
       {cianjur.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Istana Kepresidenan Cipanas terletak di antara jalur Jalan Raya Jakarta dan Bandung arah Puncak, di sekitar 103 kilometer dari Jakarta, atau sekitar 20 kilometer dari kota Kabupaten Cianjur. Tepatnya, istana ini berlokasi
+                  di Desa Cipanas, Kecamatan Pacet, Kabupaten Cianjur, di kaki Gunung Gede, Jawa Barat, pada ketinggian 1.100 meter dari permukaan laut. Bangunan istana berdiri di atas areal lebih kurang 26 hektar, dengan luas bangunan
+                  sekitar 7.760 meter persegi.
+                </h3>
+                <h3>
+                  Istana Cipanas dibangun sebagai tempat peristirahatan dan persinggahan. Udaranya bersih, sejuk, dan segar. Halamannya terbagi dalam dua areal, yakni areal taman istana dan areal hutan istana. Di dalamnya berdiri pula
+                  sebuah rumah kebun mungil, tempat merancang bunga taman istana.
+                </h3>
+                <Link href="https://goo.gl/maps/JqqseFr5iNxYmQvh9">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/JqqseFr5iNxYmQvh9</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -162,12 +174,20 @@ export function KebonRC() {
     <section>
       {cianjur.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Kebun Raya Cibodas atau Cibodas Botanical Garden adalah taman hijau nan indah yang luasnya hampir 80 hektar dengan topografi lapangan yang bergelombang dan berbukit-bukit menjadikan kebun raya cibodas salah satu tujuan
+                  wisata utama di kawasan Cibodas. Keindahan Kebun Raya Cibodas sudah terkenal sejak lama dan menjadi tujuan wisata domestik maupun mancanegara. Bahkan ahli fisiologi tumbuhan, Dr. F.W. Went menggambarkan keindahan Kebun
+                  Raya Cibodas sebagai salah satu sorga dunia. Bahkan ada yang menjulukinya sebagai Taman Firdaus di Asia.
+                </h3>
+
+                <Link href="https://g.page/KebunRayaCibodas?share">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://g.page/KebunRayaCibodas?share</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -314,12 +334,18 @@ export function KebunAI() {
     <section>
       {cianjur.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Wisata Agro Inkarla salah satu obyek wisata menarik dikabupaten Cianjur yang menawarkan konsep penginapan dengan nuansa taman bunga. Taman bunga dengan latar belakang pegunungan yang sangat eksotis adalah salah satu dari
+                  berbagai hal yang akan anda nikmati selama berwisata dan menginap di Wisata Agro Inkarla.
+                </h3>
+                <Link href="https://goo.gl/maps/ZeSR2DKczLhtdXVt6">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/ZeSR2DKczLhtdXVt6</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -466,12 +492,19 @@ export function TamanBN() {
     <section>
       {cianjur.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Taman Bunga Nusantara adalah sebuah taman bunga seluas 35 hektare yang terletak dekat Gunung Gede Pangrango dan Kebun Teh Bogor dengan jarak tempuh sekitar 2,5 - 3 jam perjalanan dari Jakarta, tepatnya berada di antara dua
+                  desa yaitu, Kawungluwuk, Sukaresmi, Cianjur dengan Sukawangi, Sukamakmur, Jonggol. Di taman ini disimpan berbagai tipe bunga dari seluruh dunia yang tumbuh di tempat ini, dalam hal ini terutama budi daya anggrek.
+                  Diperkirakan ada sekitar 2000 jenis anggrek yang dirawat di tempat ini.
+                </h3>
+                <Link href="https://goo.gl/maps/8gAYp5pN518DbuBa8">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/8gAYp5pN518DbuBa8</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -618,12 +651,18 @@ export function TelagaBC() {
     <section>
       {cianjur.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Telaga Biru merupakan sebuah destinasi alam berupa danau eksotis dengan air berwarna kebiruan. Terletak di Taman Nasional Gunung Gede Pangrango, spot ini menjadi pemandangan memukau kala mendaki Gunung Gede Pangrango atau
+                  rekreasi ke objek wisata Air Terjun Cibeureum.
+                </h3>
+                <Link href="https://goo.gl/maps/s982nWTBE1CxETXr6">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/s982nWTBE1CxETXr6</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">

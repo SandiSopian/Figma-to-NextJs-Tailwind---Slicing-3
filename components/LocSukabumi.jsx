@@ -3,6 +3,7 @@ import React from "react";
 import { sukabumi } from "../public/data";
 import { LightgalleryItem } from "react-lightgallery";
 import Image from "next/image";
+import Link from "next/link";
 
 // Curug Cimarinjung
 export function CurugCim() {
@@ -10,12 +11,20 @@ export function CurugCim() {
     <section>
       {sukabumi.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>Curug Cimarinjung merupakan sebuah air terjun berketinggian sekitar 50 meter yang berada di Kabupaten Sukabumi, Provinsi Jawa Barat.</h3>
+                <h3>
+                  Panorama Curug Cimarinjung adalah suasana alam dipadu dengan curahan airnya yang sangat deras. Dan yang lebih mempesona ialah tebing-tebing batuannya yang sangat menakjubkan. Tebing berwarna merah kecoklatan ditambah
+                  dengan tumbuhan hijau yang menempel di tebing membuat Curug Cimarinjung kian indah. Tak hanya itu, lokasi Curug Cimarinjung pun makin indah dengan adanya dua bongkah batu berukuran besar yang mengapit aliran air sebelum
+                  turun ke bawah. Terdapat beberapa fasilitas penunjang wisata di area air terjun ini.
+                </h3>
+                <Link href="https://goo.gl/maps/m1PrmCA4soUkQxXMA">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/m1PrmCA4soUkQxXMA</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -162,12 +171,24 @@ export function DanauBac() {
     <section>
       {sukabumi.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Danau Bacan adalah salah satu danau yang sangat unik. Keunikan yang dimiliki oleh danau ini bisa dilihat dari jejak sejarah yang dimilikinya. Danau Bacan dulunya adalah sebuah pertambangan. Akan tetapi pertambangan sudah
+                  tidak dilakukan sehingga tempat tersebut terbengkalai. Akan tetapi suatu ketika tempa ini menjadi sangat populer melalui sosial media di area tersebut. hal ini disebabkan karena tiba-tiba saja muncul genangan air di
+                  tambang tersebut.
+                </h3>
+                <h3>
+                  Uniknya lagi air yang muncul di bekas tambang ini memiliki warna kehijauan mirip dengan warna dari Batu Bacan. Hal inilah yang menyebabkan danau ini disebut dengan Danau Bacan. Keberadaan danau ini disebabkan karena adanya
+                  air yang keluar dari dalam bumi. Hal ini dibuktikan dengan banyaknya penambang yang dahulu mengeluh bahwa tempat tambangnya selalu tergenang air. bukti lainnya juga didapatkan dari keberadaan danau ini di musim kemarau. Di
+                  musim kemarau Danau Bacan tidak mengering bahkan airnya dimanfaatkan oleh warga sekitar untuk keperluan sehari-hari.
+                </h3>
+                <Link href="https://goo.gl/maps/kgtdWZpSsCQxvA3N7">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/kgtdWZpSsCQxvA3N7</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -314,12 +335,22 @@ export function PantaiPR() {
     <section>
       {sukabumi.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Pantai Palabuhanratu, atau lebih populer sebagai Pantai Pelabuhan Ratu, adalah sebuah tempat wisata di pesisir Samudra Hindia di selatan Jawa Barat, Indonesia. Lokasinya terletak sekitar 60 km ke arah selatan dari Kota
+                  Sukabumi.
+                </h3>
+                <h3>
+                  Pantai ini dikenal memiliki ombak yang sangat kuat dan karena itu berbahaya bagi perenang pantai. Topografinya berupa perpaduan antara pantai yang curam dan landai, tebing karang terjal, hempasan ombak, dan hutan cagar
+                  alam.
+                </h3>
+                <Link href="https://goo.gl/maps/iAYu7e1GDjws7qe8A">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/iAYu7e1GDjws7qe8A</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -466,12 +497,19 @@ export function PemandianAPCis() {
     <section>
       {sukabumi.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Air Panas Cisolok ini dilengkapi dengan keindahan air mancurnya yang tidak mengandung belerang. Selain itu timbunan bebatuan yang mengelilingi setiap semburan air panas ini layaknya suasana pemandian khas pedesaan yang
+                  masih alami.
+                </h3>
+
+                <Link href="https://goo.gl/maps/fDARFDc6mVrFJJyTA">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/fDARFDc6mVrFJJyTA</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -618,12 +656,22 @@ export function TebingPan() {
     <section>
       {sukabumi.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Tebing Panenjoan Sukabumi atau Bukit Panenjoan merupakan pintu masuk untuk menyaksikan keindahan Geopark Ciletuh Pelabuhan Ratu. Seluruh keindahan Geopark Ciletuh Pelabuhan Ratu bisa kamu saksikan di sini. Maka tak heran
+                  jika tempat ini juga di sebut sebagai Mega Amphitheater.
+                </h3>
+                <h3>
+                  Panenjoan sendiri memiliki arti ‘tempat untuk melihat’. Di bukit ini, kamu bisa melihat panorama keindahan alam yang telah Tuhan ciptakan. Tebing Panenjoan berada di kawasan Geopark Ciletuh Pelabuhan Ratu, yakni di
+                  Kecamatan Ciemas, Kabupaten Sukabumi, Jawa Barat.
+                </h3>
+                <Link href="https://g.page/properti-sukabumi?share">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://g.page/properti-sukabumi?share</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">

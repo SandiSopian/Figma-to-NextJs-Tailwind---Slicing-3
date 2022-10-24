@@ -3,6 +3,7 @@ import React from "react";
 import { bogor } from "../public/data";
 import { LightgalleryItem } from "react-lightgallery";
 import Image from "next/image";
+import Link from "next/link";
 
 // Curug Leuwi Hejo
 export function CurugLH() {
@@ -10,14 +11,24 @@ export function CurugLH() {
     <section>
       {bogor.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Curug Leuwi Hejo merupakan salah satu destinasi wisata alam air terjun terkenal yang ada di kota Bogor. Meskipun kota Bogor memiliki banyak sekali air terjun, namun keindahan air terjun Leuwi Hejo memiliki daya tarik
+                  tersendiri yang membuat para wisatawan datang ke air terjun ini.
+                </h3>
+                <h3>
+                  Air terjun ini juga sering disebut sebagai “Green Canyon” nya kota Bogor. Hal ini dikarenakan air terjun Leuwi Hejo memiliki kolam berwarna hijau toska dibawah air terjunnya. Kolam berwarna hijau toska yang dimiliki Curug
+                  Leuwi Hejo ini menambah keindahannya.
+                </h3>
+                <Link href="https://goo.gl/maps/6Fomb6Q2yPaEpT4b9">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/6Fomb6Q2yPaEpT4b9</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
+            <div className="grid grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-4 gap-2">
               <div className="w-full">
                 <LightgalleryItem src={location.curugLH.img1}>
                   <Image
@@ -162,12 +173,23 @@ export function GunungPncr() {
     <section>
       {bogor.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Gunung Pancar memiliki objek dan daya tarik wisata yang cukup menarik, yaitu pemandian air panas, makam keramat mbah putih yang di anggap sebagai leluhur oleh warga setempat dan menikmati pergelaran kesenian tradisional
+                  daerah. Kegiatan wisata yang dapat dilakukan antara lain:
+                </h3>
+                <h3>• Wisata alam sambil olahraga (hiking, berkemah, berkuda, bersepeda, tenis, berenang (air panas), lintas alam) Wisata konvensi (berwisata sambil melakukan seminar, rapat, konferensi),</h3>
+                <h3>• Wisata budaya (menikmati pergelaran seni tradisional dan ziarah ke makam keramat di Puncak Gunung Pancar).</h3>
+                <h3>
+                  Sarana prasarana wisata di Gunung Pancar di antaranya pusat informasi, pondok kerja, sarana olahraga, area kamping, tempat bermain anak, sarana pemandian air panas, rumah kecil, fasilitas penginapan dan ruang pertemuan.
+                </h3>
+                <Link href="https://goo.gl/maps/PgwuBe4LM8sV3Ae77">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/PgwuBe4LM8sV3Ae77</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -314,12 +336,22 @@ export function RusaGJC() {
     <section>
       {bogor.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Penangkaran Rusa Giri Jaya Cariu adalah taman penangkaran hewan rusa yang dikelola oleh Perhutani sebagai kawasan wisata yang menyenangkan. Tak hanya berwisata, lokasi ini juga bisa kamu jadikan sebagai wisata edukasi yang
+                  ada di Bogor, Jawa Barat.
+                </h3>
+                <h3>
+                  Jika biasanya liburan selalu identik dengan taman wisata dan sejenisnya, maka liburan kali ini dapat kamu nikmati dengan melihat tingkah lucu hewan rusa dan berbagai keindahan yang ada di taman ini. Tak hanya melihat hewan
+                  rusa saja, kawasan ini juga menyediakan beberapa fasilitas permainan dan fasilitas kenyamanan untuk bersantai menikmati waktu libur yang menyenangkan.
+                </h3>
+                <Link href="https://goo.gl/maps/zQfcq8EK8KK19EFZ8">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/zQfcq8EK8KK19EFZ8</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -466,12 +498,23 @@ export function TamanSI() {
     <section>
       {bogor.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Taman Safari Indonesia adalah tempat wisata keluarga berwawasan lingkungan yang berorientasi pada habitat satwa di alam bebas. Taman Safari Indonesia terletak di Desa Cibeureum Kecamatan Cisarua, Kabupaten Bogor, Jawa
+                  Barat atau yang lebih dikenal dengan kawasan Puncak. Taman ini berfungsi menjadi penyangga Taman Nasional Gunung Gede Pangrango di ketinggian 900-1800 m di atas permukaan laut, serta mempunyai suhu rata-rata 16 - 24
+                  derajat Celsius.
+                </h3>
+                <h3>
+                  Keunikan tempat wisata ini dari kebun binatang lainnya di Indonesia adalah pengunjungnya bisa berkeliling ke berbagai tempat untuk bisa melihat dari dekat semua jenis binatang dengan memakai mobil pribadi ataupun naik bus
+                  yang sudah disediakan pihak pengelola Taman Safari. Pengunjung juga bisa berinteraksi langsung dengan memberi makan hewan-hewan tersebut.
+                </h3>
+                <Link href="https://g.page/safaribogor?share">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://g.page/safaribogor?share</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
@@ -618,12 +661,20 @@ export function TirtaSC() {
     <section>
       {bogor.map((location) => {
         return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-6 ">
+            <div className="font-light p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p className="m-1 mb-4">
+                <h3>
+                  Kolam Air Panas Tirta Sanita Ciseeng terletak di Jalan Cogreg, Desa Bojong Indah, Kecamatan Parung, Bogor. Pemandian air panas ini berjarak sekitar 50 km dari kota Jakarta atau 1,5 jam perjalanan dengan mobil. Berdasarkan
+                  penelitan TEMAC Thai Engineering Materials Analysis, C. Ltd., air panas di Tirta Sanita Ciseeng berasal dari gunung kapur yang mengandung belerang alami dan bermanfaat untuk mengobati penyakit tulang maupun kulit. Selain
+                  itu, air panas di Tirta Sanita Ciseeng juga mengandung garam yang dapat membuat kulit menjadi semakin mulus setelah berendam.
+                </h3>
+
+                <Link href="https://goo.gl/maps/BNrAtTnzce9gVGTYA">
+                  <div className="text-sm text-indigo-600 hover:cursor-pointer">https://goo.gl/maps/BNrAtTnzce9gVGTYA</div>
+                </Link>
               </p>
+              <div className="border-b-4 border-gray-400"></div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
