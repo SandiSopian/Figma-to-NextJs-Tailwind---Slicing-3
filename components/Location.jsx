@@ -35,8 +35,8 @@ function Location() {
             <Menu.Items className="absolute z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
               <div className="py-1 ">
                 <Menu.Item>
-                  <Link href="/bandung/curug-dago">
-                    <a href="/bandung/curug-dago" className={router.pathname == "/bandung/curug-dago" ? "active" : ""} onClick={() => router.reload()}>
+                  <Link href="/bandung/curug-dago" onClick={() => router.reload()}>
+                    <a href="/bandung/curug-dago" className={router.pathname == "/bandung/curug-dago" ? "active" : ""}>
                       <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Curug Dago</div>
                     </a>
                   </Link>
