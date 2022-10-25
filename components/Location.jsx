@@ -36,7 +36,7 @@ function Location() {
               <div className="py-1 ">
                 <Menu.Item>
                   <Link href="/bandung/curug-dago" onClick={() => router.reload()}>
-                    <a href="/bandung/curug-dago" className={router.pathname == "/bandung/curug-dago" ? "active" : ""}>
+                    <a href="/bandung/curug-dago" className={router.pathname == "/bandung/curug-dago" ? "active" : ""} onClick={() => router.reload()}>
                       <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Curug Dago</div>
                     </a>
                   </Link>
