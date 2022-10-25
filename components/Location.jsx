@@ -42,10 +42,10 @@ function Location() {
                   </Link>
                 </Menu.Item>
                 <Menu.Item>
-                  <Link href="/bandung/gedung-sate">
-                    <div href="/bandung/gedung-sate" className={router.pathname == "/bandung/gedung-sate" ? "active" : ""} onClick={() => router.reload()}>
+                  <Link href="/bandung/gedung-sate" onClick={() => router.reload()}>
+                    <a href="/bandung/gedung-sate" className={router.pathname == "/bandung/gedung-sate" ? "active" : ""}>
                       <div className="block px-4 py-2 text-sm text-bold text-gray-800 hover:bg-gray-900 hover:text-white leading-loose hover:cursor-pointer">📌 Gedung Sate</div>
-                    </div>
+                    </a>
                   </Link>
                 </Menu.Item>
                 <Menu.Item>
