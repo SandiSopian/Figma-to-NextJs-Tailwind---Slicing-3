@@ -29,7 +29,7 @@ export function CurugDg() {
               </p>
               <div className="border-b-4 border-gray-400"></div>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-4 gap-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-4 gap-2">
               <div className="w-full">
                 <LightgalleryItem src={location.curugDg.img1}>
                   <Image
