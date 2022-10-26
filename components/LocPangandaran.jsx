@@ -29,7 +29,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img1}
                     alt={location.cagarAP.name}
                     width={600}
@@ -42,7 +42,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img2}
                     alt={location.cagarAP.name}
                     width={600}
@@ -55,7 +55,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img3}
                     alt={location.cagarAP.name}
                     width={600}
@@ -68,7 +68,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img4}
                     alt={location.cagarAP.name}
                     width={600}
@@ -81,7 +81,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img5}
                     alt={location.cagarAP.name}
                     width={600}
@@ -94,7 +94,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img6}
                     alt={location.cagarAP.name}
                     width={600}
@@ -107,7 +107,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img7}
                     alt={location.cagarAP.name}
                     width={600}
@@ -120,7 +120,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img8}
                     alt={location.cagarAP.name}
                     width={600}
@@ -133,7 +133,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img9}
                     alt={location.cagarAP.name}
                     width={600}
@@ -146,7 +146,7 @@ export function CagarAP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.cagarAP.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.cagarAP.img10}
                     alt={location.cagarAP.name}
                     width={600}
@@ -192,7 +192,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img1}
                     alt={location.goaLS.name}
                     width={600}
@@ -205,7 +205,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img2}
                     alt={location.goaLS.name}
                     width={600}
@@ -218,7 +218,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img3}
                     alt={location.goaLS.name}
                     width={600}
@@ -231,7 +231,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img4}
                     alt={location.goaLS.name}
                     width={600}
@@ -244,7 +244,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img5}
                     alt={location.goaLS.name}
                     width={600}
@@ -257,7 +257,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img6}
                     alt={location.goaLS.name}
                     width={600}
@@ -270,7 +270,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img7}
                     alt={location.goaLS.name}
                     width={600}
@@ -283,7 +283,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img8}
                     alt={location.goaLS.name}
                     width={600}
@@ -296,7 +296,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img9}
                     alt={location.goaLS.name}
                     width={600}
@@ -309,7 +309,7 @@ export function GoaLS() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.goaLS.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.goaLS.img10}
                     alt={location.goaLS.name}
                     width={600}
@@ -355,7 +355,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img1}
                     alt={location.greenC.name}
                     width={600}
@@ -368,7 +368,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img2}
                     alt={location.greenC.name}
                     width={600}
@@ -381,7 +381,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img3}
                     alt={location.greenC.name}
                     width={600}
@@ -394,7 +394,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img4}
                     alt={location.greenC.name}
                     width={600}
@@ -407,7 +407,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img5}
                     alt={location.greenC.name}
                     width={600}
@@ -420,7 +420,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img6}
                     alt={location.greenC.name}
                     width={600}
@@ -433,7 +433,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img7}
                     alt={location.greenC.name}
                     width={600}
@@ -446,7 +446,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img8}
                     alt={location.greenC.name}
                     width={600}
@@ -459,7 +459,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img9}
                     alt={location.greenC.name}
                     width={600}
@@ -472,7 +472,7 @@ export function GreenC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.greenC.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.greenC.img10}
                     alt={location.greenC.name}
                     width={600}
@@ -518,7 +518,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img1}
                     alt={location.konservasiP.name}
                     width={600}
@@ -531,7 +531,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img2}
                     alt={location.konservasiP.name}
                     width={600}
@@ -544,7 +544,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img3}
                     alt={location.konservasiP.name}
                     width={600}
@@ -557,7 +557,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img4}
                     alt={location.konservasiP.name}
                     width={600}
@@ -570,7 +570,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img5}
                     alt={location.konservasiP.name}
                     width={600}
@@ -583,7 +583,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img6}
                     alt={location.konservasiP.name}
                     width={600}
@@ -596,7 +596,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img7}
                     alt={location.konservasiP.name}
                     width={600}
@@ -609,7 +609,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img8}
                     alt={location.konservasiP.name}
                     width={600}
@@ -622,7 +622,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img9}
                     alt={location.konservasiP.name}
                     width={600}
@@ -635,7 +635,7 @@ export function KonservasiP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.konservasiP.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.konservasiP.img10}
                     alt={location.konservasiP.name}
                     width={600}
@@ -681,7 +681,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img1}
                     alt={location.pantaiPG.name}
                     width={600}
@@ -694,7 +694,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img2}
                     alt={location.pantaiPG.name}
                     width={600}
@@ -707,7 +707,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img3}
                     alt={location.pantaiPG.name}
                     width={600}
@@ -720,7 +720,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img4}
                     alt={location.pantaiPG.name}
                     width={600}
@@ -733,7 +733,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img5}
                     alt={location.pantaiPG.name}
                     width={600}
@@ -746,7 +746,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img6}
                     alt={location.pantaiPG.name}
                     width={600}
@@ -759,7 +759,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img7}
                     alt={location.pantaiPG.name}
                     width={600}
@@ -772,7 +772,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img8}
                     alt={location.pantaiPG.name}
                     width={600}
@@ -785,7 +785,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img9}
                     alt={location.pantaiPG.name}
                     width={600}
@@ -798,7 +798,7 @@ export function PantaiPG() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiPG.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiPG.img10}
                     alt={location.pantaiPG.name}
                     width={600}

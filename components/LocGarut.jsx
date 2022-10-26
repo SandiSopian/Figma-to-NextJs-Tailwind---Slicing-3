@@ -26,7 +26,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img1}
                     alt={location.curugBN.name}
                     width={600}
@@ -39,7 +39,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img2}
                     alt={location.curugBN.name}
                     width={600}
@@ -52,7 +52,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img3}
                     alt={location.curugBN.name}
                     width={600}
@@ -65,7 +65,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img4}
                     alt={location.curugBN.name}
                     width={600}
@@ -78,7 +78,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img5}
                     alt={location.curugBN.name}
                     width={600}
@@ -91,7 +91,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img6}
                     alt={location.curugBN.name}
                     width={600}
@@ -104,7 +104,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img7}
                     alt={location.curugBN.name}
                     width={600}
@@ -117,7 +117,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img8}
                     alt={location.curugBN.name}
                     width={600}
@@ -130,7 +130,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img9}
                     alt={location.curugBN.name}
                     width={600}
@@ -143,7 +143,7 @@ export function CurugBN() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.curugBN.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.curugBN.img10}
                     alt={location.curugBN.name}
                     width={600}
@@ -185,7 +185,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img1}
                     alt={location.gunungP.name}
                     width={600}
@@ -198,7 +198,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img2}
                     alt={location.gunungP.name}
                     width={600}
@@ -211,7 +211,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img3}
                     alt={location.gunungP.name}
                     width={600}
@@ -224,7 +224,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img4}
                     alt={location.gunungP.name}
                     width={600}
@@ -237,7 +237,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img5}
                     alt={location.gunungP.name}
                     width={600}
@@ -250,7 +250,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img6}
                     alt={location.gunungP.name}
                     width={600}
@@ -263,7 +263,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img7}
                     alt={location.gunungP.name}
                     width={600}
@@ -276,7 +276,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img8}
                     alt={location.gunungP.name}
                     width={600}
@@ -289,7 +289,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img9}
                     alt={location.gunungP.name}
                     width={600}
@@ -302,7 +302,7 @@ export function GunungP() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.gunungP.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.gunungP.img10}
                     alt={location.gunungP.name}
                     width={600}
@@ -348,7 +348,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img1}
                     alt={location.kawahK.name}
                     width={600}
@@ -361,7 +361,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img2}
                     alt={location.kawahK.name}
                     width={600}
@@ -374,7 +374,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img3}
                     alt={location.kawahK.name}
                     width={600}
@@ -387,7 +387,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img4}
                     alt={location.kawahK.name}
                     width={600}
@@ -400,7 +400,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img5}
                     alt={location.kawahK.name}
                     width={600}
@@ -413,7 +413,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img6}
                     alt={location.kawahK.name}
                     width={600}
@@ -426,7 +426,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img7}
                     alt={location.kawahK.name}
                     width={600}
@@ -439,7 +439,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img8}
                     alt={location.kawahK.name}
                     width={600}
@@ -452,7 +452,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img9}
                     alt={location.kawahK.name}
                     width={600}
@@ -465,7 +465,7 @@ export function KawahK() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kawahK.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kawahK.img10}
                     alt={location.kawahK.name}
                     width={600}
@@ -509,7 +509,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img1}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -522,7 +522,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img2}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -535,7 +535,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img3}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -548,7 +548,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img4}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -561,7 +561,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img5}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -574,7 +574,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img6}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -587,7 +587,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img7}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -600,7 +600,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img8}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -613,7 +613,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img9}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -626,7 +626,7 @@ export function KompleksWC() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.kompleksWC.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.kompleksWC.img10}
                     alt={location.kompleksWC.name}
                     width={600}
@@ -671,7 +671,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img1}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img1}
                     alt={location.pantaiRB.name}
                     width={600}
@@ -684,7 +684,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img2}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img2}
                     alt={location.pantaiRB.name}
                     width={600}
@@ -697,7 +697,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img3}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img3}
                     alt={location.pantaiRB.name}
                     width={600}
@@ -710,7 +710,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img4}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img4}
                     alt={location.pantaiRB.name}
                     width={600}
@@ -723,7 +723,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img5}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img5}
                     alt={location.pantaiRB.name}
                     width={600}
@@ -736,7 +736,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img6}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img6}
                     alt={location.pantaiRB.name}
                     width={600}
@@ -749,7 +749,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img7}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img7}
                     alt={location.pantaiRB.name}
                     width={600}
@@ -762,7 +762,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img8}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img8}
                     alt={location.pantaiRB.name}
                     width={600}
@@ -775,7 +775,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img9}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img9}
                     alt={location.pantaiRB.name}
                     width={600}
@@ -788,7 +788,7 @@ export function PantaiRB() {
               <div className="w-full">
                 <LightgalleryItem key="uniqid" src={location.pantaiRB.img10}>
                   <Image
-                    key={uniqid}
+                    key={uniqid()}
                     src={location.pantaiRB.img10}
                     alt={location.pantaiRB.name}
                     width={600}
