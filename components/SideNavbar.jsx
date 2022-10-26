@@ -9,6 +9,11 @@ function SideNavbar() {
   const [offcanvas, setOffcanvas] = useState(false);
   return (
     <>
+      {/* Logo Mobile Mode */}
+      <div>
+        <h1 className="md:hidden my-4 sm:my-6 ml-10 text-3xl font-bold text-gray-800 ">Tara Trip</h1>
+      </div>
+
       {/* Hamburger Menu */}
       <Disclosure as="nav">
         <Disclosure.Button

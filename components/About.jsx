@@ -28,7 +28,7 @@ export default function About() {
         <h1 className="mt-6 text-bold text-2xl mb-2 text-center md:text-left">BIO</h1>
         <p>
           Saya seorang front end engineer web developer yang sedang memperbanyak website portfolio untuk mengasah kemampuan, semua asset yang ada dalam web ini di ambil dari Google hanya untuk keperluan portfolio saja tanpa ada maksud
-          komersial
+          komersial.
         </p>
       </div>
     </div>
